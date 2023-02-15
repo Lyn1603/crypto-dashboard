@@ -1,0 +1,29 @@
+.text{
+   position: relative;
+   left: 19vw;
+}
+
+.BTC{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.BTC .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #292727;
+    border-radius: 10px;
+    width: 40vw;
+    gap: 20px;
+   
+}
+
+.img_balance{
+    position: relative;
+    right: 50px;
+}
+

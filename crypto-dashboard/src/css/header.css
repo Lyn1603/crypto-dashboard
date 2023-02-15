@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    padding-left: 30px;
+}
+
+
+.Dashboard{
+    margin-top: 30%;
+}
+
