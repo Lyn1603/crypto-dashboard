@@ -7,6 +7,7 @@ import Products from '../assets/product.png'
 import Message from '../assets/message.png'
 import Settings from '../assets/settings.png'
 import Help from '../assets/help.png'
+import logout from '../assets/logout.png';
 
 
 import '../css/header.css';
@@ -17,15 +18,20 @@ const Header = () =>{
         <div className='header'>
         <img src={Mlogo} alt="Logo" />
         <img className='Dashboard' src={Dashboard} alt="Dashboard" />
-        <div>
-        <img src={Invoices} alt="Logo" />
-        <img src={Clients} alt="Logo" />
-        <img src={Products} alt="Logo" />
-        <img src={Message} alt="Logo" />
-        <img src={Settings} alt="Logo" />
-        <img src={Help} alt="Logo" />
+            <div className='menu'>
+            <img src={Invoices} alt="Logo" />
+            <img src={Clients} alt="Client" />
+            <img className='product' src={Products} alt="Product" />
+            <img className='message' src={Message} alt="Message" />
+            <img src={Settings} alt="Settings" />
+            <img src={Help} alt="Help" />
+            </div> 
+            <img className='logout' src={logout} alt="logout" />
+
         </div>
-        </div>
+
+
+
         </Fragment>
     )
 }

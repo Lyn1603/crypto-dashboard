@@ -1,29 +1,59 @@
-.text{
-   position: relative;
-   left: 19vw;
+.Main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
 }
 
-.BTC{
+.sidebar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+
+    
+}
+
+.SearchBar{
+    background-color: white;
+    border-radius: 10px;
+    height: 5vh;
+    width: 25vw;
+    color: black;
+}
+
+.SearchBar .search_content{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 9px;
+    gap: 10px;
+}
+
+
+.frame_balance{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 40px;
 }
 
-.BTC .navbar{
+.menu2{
+
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #292727;
-    border-radius: 10px;
-    width: 40vw;
+    align-items: center;
     gap: 20px;
-   
+    background-color: #292727;
+    border-radius: 20px;
+    width: 30vw;
+    height: 9vh;
+
 }
 
-.img_balance{
-    position: relative;
-    right: 50px;
-}
+
+
+
 

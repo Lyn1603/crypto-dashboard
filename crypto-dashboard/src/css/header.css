@@ -5,8 +5,28 @@
     padding-left: 30px;
 }
 
+.menu{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
 
 .Dashboard{
-    margin-top: 30%;
+    margin-top: 50px;
+}
+
+.product{
+    margin-left: 10%;
+
+}
+
+.message{
+    margin-left: 10%;
+}
+
+.logout{
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+
 }
 
