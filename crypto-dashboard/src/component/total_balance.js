@@ -5,7 +5,11 @@ import Portfolio from '../assets/portfolio.png';
 import Funding from '../assets/Funding.png';
 import P2P from '../assets/P2P.png';
 import Assets from '../assets/Assets.png';
-import Graphique from '../assets/graphique.png';
+import Div_bitcoin from '../component/div_bitcoins.js';
+import Div_etherium from '../component/div_etherium.js';
+
+
+
 
 
 
@@ -16,7 +20,7 @@ import '../css/total_balance.css';
 const total_balance = () =>{
     return(
         <Fragment>
-            <div className='Main'>
+            <div className='Second_part'>
             <div className='sidebar'>
                 <h1> Hi Roger ! </h1>
                 <div className='SearchBar'>
@@ -40,24 +44,34 @@ const total_balance = () =>{
         <div className='menu2'>
 
             <div>
-            <img src={Portfolio} alt="BTC"/>
+            <img  src={Portfolio} alt="Portfolio"/>
             </div>
 
             <div>
-            <img src={Funding} alt="BTC"/>
+            <img  src={Funding} alt="Funding"/>
             </div>
 
             <div>
-            <img src={Assets} alt="BTC"/>
+            <img  src={Assets} alt="Assets"/>
             </div>
-            <img src={P2P} alt="BTC"/>
+            <img  src={P2P} alt="P2P"/>
             </div>     
-
         </div>
-        <div>
-        <img src={Graphique} alt="BTC"/>
 
+
+
+
+
+
+
+        <div className='transactions'>
+            <h2> Recent Transactions</h2>
+            <h2 className='text1'> See all coins </h2>
         </div>
+
+        <Div_bitcoin/>
+
+        <Div_etherium/>
 
 </div>
         </Fragment>

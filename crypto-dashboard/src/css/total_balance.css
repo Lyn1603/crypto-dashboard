@@ -1,4 +1,4 @@
-.Main{
+.Second_part{
     display: flex;
     flex-direction: column;
     padding-left: 100px;
@@ -7,7 +7,7 @@
 .sidebar{
 
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 140px;
 
@@ -34,7 +34,7 @@
 .frame_balance{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 40px;
 }
@@ -48,9 +48,84 @@
     gap: 20px;
     background-color: #292727;
     border-radius: 20px;
-    width: 30vw;
+    width: 25vw;
     height: 9vh;
 
+}
+
+
+/* PARTIE TRANSACTION */
+
+.transactions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50%;
+}
+
+.div_bitcoin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #20232B;
+    border-radius: 25px;
+    height: 10vh;    
+}
+
+
+.img_bitcoin{
+    height: 7vh;
+}
+
+
+.transactions{
+    display: flex;
+    flex-direction: row;
+}
+
+.BTC_transaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.span_price{
+    color: #1970D6;
+}
+
+.span_24change{
+    color: #4AD619;
+}
+
+.transcation_bitcoin{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.div_etherium{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #20232B;
+    margin-top: 15px;
+    border-radius: 25px;
+    height: 10vh;
+    
+    
+}
+
+.span_price1{
+    color: #6C1182;
+}
+
+.span_24change1{
+    color: #D61919;
 }
 
 

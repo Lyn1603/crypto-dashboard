@@ -1,0 +1,90 @@
+.Third_part{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    margin-top: 15px;
+}
+
+.notification{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+
+}
+
+
+
+
+/* DIV Transactions */
+
+.div_USDC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10%;
+    
+    
+    
+}
+
+.transcation_USDC{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.span_price1{
+    color: #6C1182;
+}
+
+.span_24change1{
+    color: #D61919;
+}
+
+
+/* DIV Assets */
+
+/* Asset Bitcoin */
+
+.Assets_bitcoin{
+    background-image: url(../assets/coloredbg1.png);
+    background-size: cover;
+    height: 16.5vh;
+    margin-bottom: 10px;
+
+}
+
+.column{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.img{
+    width: 20%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 15px;
+    bottom: 15px;
+    gap: 100px;
+}
+
+/* Asset Etherium */
+
+.Assets_etherium{
+    background-image: url(../assets/coloredbg2.png);
+    background-size: cover;
+    height: 16.5vh;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
