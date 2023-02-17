@@ -106,17 +106,29 @@
     .Assets_bitcoin{
       display: flex;
       flex-direction: column;
-      height: 28vh;
-      width: 65vw;
+      height: 37vh;
+      width: 85vw;
       gap: 20px;
     }
 
     .Assets_etherium{
       display: flex;
       flex-direction: column;
-      height: 28vh;
-      width: 65vw;
+      height: 37vh;
+      width: 85vw;
       gap: 20px;
+    }
+
+    .column{
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    .row{
+      display: flex;
+      flex-direction: row;
+      gap: 65%;
     }
   
 
