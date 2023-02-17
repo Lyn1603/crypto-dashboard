@@ -21,7 +21,7 @@ const recent_transaction = () =>{
             <img src={Profile} alt="Profile"/>        
         </div>
 
-        <h3> Recent Transactions</h3>
+        <h3 className='h3'> Recent Transactions</h3>
 
         <Div_USDC/>
         <Div_BNB/>

@@ -34,8 +34,6 @@ const total_balance = () =>{
             <div className='img_balance'>
             <img src={BTC} alt="BTC"/>
             </div>
-            
-            
 
         <div className='menu2'>
 
@@ -60,6 +58,8 @@ const total_balance = () =>{
             <h3> Recent Transactions</h3>
             <h3 className='text1'> See all coins </h3>
         </div>
+
+        <h3 className='h3'> $40,123.56 </h3>
 
         <Div_bitcoin/>
 
