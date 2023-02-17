@@ -5,21 +5,16 @@ import Portfolio from '../assets/portfolio.png';
 import Funding from '../assets/Funding.png';
 import P2P from '../assets/P2P.png';
 import Assets from '../assets/Assets.png';
+import Graphique from '../assets/graphique.png';
 import Div_bitcoin from '../component/div_bitcoins.js';
 import Div_etherium from '../component/div_etherium.js';
-
-
-
-
-
-
-
 import '../css/total_balance.css';
 
 
 const total_balance = () =>{
     return(
         <Fragment>
+
             <div className='Second_part'>
             <div className='sidebar'>
                 <h1> Hi Roger ! </h1>
@@ -58,15 +53,11 @@ const total_balance = () =>{
             </div>     
         </div>
 
-
-
-
-
-
+        <img className='graph' src={Graphique} alt="P2P"/>
 
         <div className='transactions'>
-            <h2> Recent Transactions</h2>
-            <h2 className='text1'> See all coins </h2>
+            <h3> Recent Transactions</h3>
+            <h3 className='text1'> See all coins </h3>
         </div>
 
         <Div_bitcoin/>

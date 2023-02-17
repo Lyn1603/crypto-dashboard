@@ -8,8 +8,6 @@ import Message from '../assets/message.png'
 import Settings from '../assets/settings.png'
 import Help from '../assets/help.png'
 import logout from '../assets/logout.png';
-
-
 import '../css/header.css';
 
 const Header = () =>{

@@ -11,12 +11,15 @@ const Div_USDC = () =>{
 
     <div className='transcation_USDC'>
         <span> Usdt</span>
-        <span> Recieved</span>
+        <span className='petit_span'> Recieved</span>
     </div>
 
     <div className='transcation_USDC'>
-        <span>+$3,546</span>
-        <span className='span_24change'> Today, 13:45 pm</span>
+        <div className='USDC'>
+        <span className='span_24change'>+$3,546</span>
+        <span className='petit_span'> Today,13:45 pm</span>
+        </div>
+        
     </div>
 
 

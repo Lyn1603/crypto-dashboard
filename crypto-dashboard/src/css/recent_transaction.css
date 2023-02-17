@@ -1,8 +1,8 @@
 .Third_part{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    margin-top: 15px;
+    padding-left: 50px;
+    margin-top: 50px;
 }
 
 .notification{
@@ -10,8 +10,76 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 200px;
+    position: relative;
+    bottom: 30px;
+    gap: 300px;
 
+}
+
+.petit_span{
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.img_BNB{
+    margin-top: 10px;
+    width: 63px;
+}
+
+.img_Eterium{
+    margin-top: 10px;
+    width: 50px;
+}
+
+.img_LiteCoin{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 55px;
+}
+
+.span_price1{
+    color: #6C1182;
+}
+
+.span_24change1{
+    color: #D61919;
+}
+
+.span_24change3{
+    color: #D61919;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+.span_24change5{
+    position: relative;
+    right: 10px;
+}
+
+.span_24change6{
+    position: relative;
+    right: 10px;
+}
+
+.petit_span5{
+    position: relative;
+    right: 10px;
+}
+
+.petit_span6{
+    position: relative;
+    right: 12px;
+}
+
+.span_24change2{
+    color: #4AD619;
+    margin-left: 18px;
+}
+
+.petit_span2{
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 18px;
 }
 
 
@@ -24,24 +92,52 @@
     flex-direction: row;
     align-items: center;
     border-radius: 25px;
-    gap: 10%;
+    gap: 15%;
     
     
     
+}
+
+.BNB{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+
+}
+
+.USDC{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16px;
+
+}
+
+.LiteCoin{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8px;
+
+}
+
+.Bitecoin{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+
+}
+
+.Eterium{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+
 }
 
 .transcation_USDC{
     display: flex;
     flex-direction: column;
+    justify-content: left;
 
-}
-
-.span_price1{
-    color: #6C1182;
-}
-
-.span_24change1{
-    color: #D61919;
 }
 
 
@@ -50,15 +146,14 @@
 /* Asset Bitcoin */
 
 .Assets_bitcoin{
+    margin-top: 20px;
     background-image: url(../assets/coloredbg1.png);
     background-size: cover;
-    height: 16.5vh;
-    margin-bottom: 10px;
 
 }
 
 .column{
-    margin-top: 5px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     padding-left: 15px;
@@ -82,9 +177,7 @@
 .Assets_etherium{
     background-image: url(../assets/coloredbg2.png);
     background-size: cover;
-    height: 16.5vh;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 20px;
 
 }
 

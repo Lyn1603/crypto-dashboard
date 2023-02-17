@@ -1,5 +1,5 @@
 import {Fragment} from 'react';
-import USDC from '../assets/USDC.png';
+import LiteCoin from '../assets/LiteCoin.png';
 import '../css/recent_transaction.css';
 
 const Div_USDC = () =>{
@@ -7,16 +7,19 @@ const Div_USDC = () =>{
         <Fragment>
 <div className='div_USDC'>
 
-<img className='img_USDC' src={USDC} alt="Bitcoin"/>
+<img className='img_LiteCoin' src={LiteCoin} alt="Bitcoin"/>
 
     <div className='transcation_USDC'>
-        <span> Usdt</span>
-        <span> Recieved</span>
+        <span className='span_24change5'> LiteCoin</span>
+        <span className='petit_span5'> Withdrawal</span>
     </div>
 
     <div className='transcation_USDC'>
-        <span>+$3,546</span>
-        <span className='span_24change'> Today, 13:45 pm</span>
+        <div className='LiteCoin'>
+        <span className='span_24change3'>+ 0.7546</span>
+        <span className='petit_span'>Today 7:55 am</span>
+        </div>
+       
     </div>
 
 
