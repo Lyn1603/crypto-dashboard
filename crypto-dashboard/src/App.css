@@ -4,6 +4,125 @@
   display: flex;
 }
 
+@media screen and (max-width: 720px) {
+
+  /* GENERAL */
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+ 
+  /* HEADER */
+
+  .h2{
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  .SearchBar{
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .menu{
+      display: none;
+  }
+
+  .Dashboard{
+      display: none;
+  }
+
+  .logo{
+      display: none;
+  }
+
+  .logout{
+      display: none;
+    
+  }
+
+    /* Main */
+
+
+  .Second_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20%;
+  }
+
+  .frame_balance{
+    display: flex;
+    flex-direction: column;
+  }
+  .menu2{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+  }
+
+  .graph{
+    width: auto;
+    
+  }
+
+  .transactions{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .div_bitcoin{
+    margin-top: 5%;
+  }
+
+
+  /* Third_part */
+
+    .notification{
+      display: none;
+    }
+
+    .div_USDC{
+      display: flex;
+    
+    }
+
+    .Assets_bitcoin{
+      display: flex;
+      flex-direction: column;
+      height: 28vh;
+      width: 65vw;
+      gap: 20px;
+    }
+
+    .Assets_etherium{
+      display: flex;
+      flex-direction: column;
+      height: 28vh;
+      width: 65vw;
+      gap: 20px;
+    }
+  
+
+ 
+}
+
 
 
 

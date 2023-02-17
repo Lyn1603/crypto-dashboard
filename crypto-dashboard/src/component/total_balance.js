@@ -19,7 +19,6 @@ const total_balance = () =>{
             <div className='sidebar'>
                 <h1> Hi Roger ! </h1>
                 <div className='SearchBar'>
-
                     <div className='search_content'>
                     <img src={Group} alt="BTC"/>
                         Search
@@ -28,7 +27,9 @@ const total_balance = () =>{
                 </div>
             </div>
            
-            <h2> Total Balance </h2>
+            <h2 className='h2'> Total Balance </h2>
+
+            
 <div className='frame_balance'>
             <div className='img_balance'>
             <img src={BTC} alt="BTC"/>

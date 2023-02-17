@@ -13,9 +13,12 @@ import '../css/header.css';
 const Header = () =>{
     return(
         <Fragment>
+            
         <div className='header'>
-        <img src={Mlogo} alt="Logo" />
+        <img className='logo' src={Mlogo} alt="Logo" />
         <img className='Dashboard' src={Dashboard} alt="Dashboard" />
+        <button className='menu_btn'> Menu </button>
+
             <div className='menu'>
             <img src={Invoices} alt="Logo" />
             <img src={Clients} alt="Client" />
